@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+
+}
+
+main {
+    color: #0000008c;
+    margin-bottom: 60px;
+}
+.box{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+h2{
+    margin: 0;
+}
+.topo{
+    background-color: #00cad1;
+    width: 100%;
+}
+.topo .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.local-titulo{
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.local-titulo a{
+    display: flex;
+}
+.topo-links{
+    display: flex;
+}
+.topo-links a{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+footer{
+    background-color: #0d6e71;
+    color: #fff;
+    padding: 20px;
+}
+footer .box{
+    text-align: center;
+}
+.sessao-especialidade{
+    margin-top: 40px;
+}
+.titulo{
+    padding: 0 20px;
+}
+.box-especialidades-topo{
+    padding: 0 20px;
+    text-align: center;
+}
+.especialidades-topo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    text-align: center;
+}
+.especialidades-topo a{
+    text-decoration: none;
+    color: #0d6e71;
+    border: 2px solid #00cad1;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0 10px 10px;
+    font-size: 18px;
+}
+.especialidades-topo a:hover{
+    color: #fff;
+}
+.tabela-box{
+    display: flex;
+    height: 240px;
+    padding: 0 20px;
+}
+.tabela-box img{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+}
+.tabela{
+    border-spacing: 0;
+    text-align: left;
+    width: 70%;
+    font-weight: 500;
+}
+.tabela thead tr{
+    background-color: #00cad1;
+    color: #fff;    
+}
+.tabela tr{
+    background-color: #f1f1f1;
+    color: #585757;
+    font-weight: 500;
+}
+.tabela tbody tr:nth-of-type(2n+1){
+    background-color: #cdcdcd;
+    border: 1px solid #f1f1f1;
+}
+.tabela th, .tabela td{
+    padding: 10px;
+}

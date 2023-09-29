@@ -1,0 +1,88 @@
+body{
+    font-family: "Poppins", sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #5e5b5bad;
+    color: #333333
+}
+
+body.modo-escuro{
+    background-color: #212121;
+    color: #f5f5f5
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+header .logo, .imagem-botao{
+    width: 30px;
+    transition: 0.2s ease-in-out;
+}
+header #botao-alterar-tema{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+header .logo:hover, .imagem-botao:hover{
+    transform: scale(1.5);
+}
+main{
+    padding: 25px;
+
+}
+main .listagem-livros{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+main .cartao-livros{
+    background-color: #d8e3ec;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+main .cartao-livros:hover{
+    background-color: #96d9d6;
+    transform: scale(1.05);
+}
+.modo-escuro .cartao-livros{
+    background-color: #a8a8a8;
+}
+main .cartao-livros .informacoes{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+main .cartao-livros .informacoes span{
+    padding: 5px;
+    text-transform: uppercase;
+}
+main .imagem{
+    width: 120px;
+    height: 120px;
+}
+main .tipo1, .tipo2{
+    background-color: white;
+    display: flex;
+    gap: 15px;
+    padding: 8px;
+    border-radius: 10px;
+}
+main .tipo1{
+    background-color: #212121;
+    color: white;
+}
+main .descricao{
+    max-height: 80px;
+    overflow: hidden scroll;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+

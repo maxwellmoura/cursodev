@@ -1,0 +1,57 @@
+@media (max-width: 425px) {
+    .topo .box {
+        flex-direction: column;
+    }
+
+    .local-titulo {
+        margin: 10px 0;
+    }
+
+    .topo-links {
+        width: 100%;
+        border-top: 1px solid #009fa5;
+        justify-content: space-around;
+    }
+    .coixa-sobre-lista{
+        width: 100%;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    .box {
+        height: 200px;
+    }
+
+    .box h2 {
+        font-size: 28px;
+    }
+
+    .secao-especialidades {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .box-frente {
+        height: 400px;
+    }
+}
+
+@media (max-width: 786px) {
+    .box-frente {
+        height: 300px;
+    }
+
+    .caixa-sobre img {
+        display: none;
+    }
+
+    .secao-especialidades {
+        justify-content: center;
+    }
+
+    .especialidades {
+        width: calc(100% / 1 - 40px);
+    }
+}

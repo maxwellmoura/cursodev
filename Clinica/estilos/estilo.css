@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+
+}
+
+main {
+    color: #0000008c;
+    margin-bottom: 60px;
+}
+
+.box {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.conteudo {
+    max-width: 600px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.conteudo h2 {
+    margin: 0;
+}
+
+.topo {
+    background-color: #0d6e71;
+    width: 100%;
+}
+
+.topo .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.local-titulo {
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.local-titulo a {
+    display: flex;
+}
+
+.logo {
+    height: 100px;
+    
+}
+
+.topo-links {
+    display: flex;
+}
+
+.topo-links a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.topo-links a:hover {
+    background-color: white;
+    color: #004b4c;
+    transition: 0.8s;
+    border: 1px solid black;
+    
+}
+
+footer {
+    background-color: #0d6e71;
+    color: #fff;
+    padding: 20px;
+}
+
+footer .box {
+    text-align: center;
+    padding: 30px;
+    font-weight: 600;
+}
+
+
+.box-frente {
+    position: relative;
+    background-image: url('../assets/recepcao.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.box-imagem-texto {
+    height: 100%;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.box-imagem-texto h1 {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 38px;
+    margin: 0;
+}
+.caixa-sobre-lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.caixa-sobre{
+    margin-top: 85px;
+    border: 2px solid;
+    border-radius: 15px;
+    
+}
+.caixa-sobre-lista h2{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.caixa-sobre-lista img{
+    height: 350px;
+}
+
+.especialidades{
+    display: flex;
+    flex-wrap: wrap;
+}
+.rota{
+    display: flex;
+    border: 2px solid #004b4c;
+    border-radius: 15px;
+}
+
+.fotos-especialidade{
+    border-radius: 3px;
+    box-shadow: 0px 1px 10px rgb(0 0 0 / 50%);
+    margin: 20px;
+    width: calc(100% / 3 - 40px);
+}
+.fotos-especialidade img{
+    width: 100%;
+}
+.fotos-especialidade figcaption{
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.box-horario{
+    text-align: center;
+    margin-top: 50px;
+}
+.link{
+    background-color: #00cad1;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.link:hover{
+    background-color: rgb(14, 12, 12);
+    color: #004b4c;
+    transition: 0.8s;
+    color: #fff;
+    border: 1px solid black;
+}
