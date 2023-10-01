@@ -1,0 +1,58 @@
+@media (max-width: 1100px){
+.largura {
+    width: 90%;
+}
+}
+/* Area Ofertas Responsiva*/
+@media (max-width: 768px) {
+    buttom{
+        max-width: 100%;
+    }
+    .oferta-imagem{
+        flex-direction: column;
+        height: 100%;
+    }
+    .quatro-ofertas{
+        width: 100%;
+    }
+    .oferta-destaques, .quatro-ofertas figure{
+        width: 100%;
+        height: 225px;
+        margin: 15px 0 0 0;
+    }
+    
+}
+/* Area Destaque Responsiva */
+@media screen and (max-width: 768px) {
+    .dois-anuncios{
+        flex-direction: column;
+   
+    }
+    .anuncios-imagem{
+        width: 100%;
+        margin: 15px 0 0 0;
+    }
+    
+}
+/* Rodapé Responsivo */
+@media screen and (max-width: 768px) {
+    .rodape{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rodape-conteudo{
+        width: 250px;
+    }
+    .rodape-copyright{
+        font-size: 18px;
+    }
+}
+/* Formulario*/
+@media (max-width: 540px) {
+    .form-data{
+        flex-direction: column;
+    }
+    .form-data div, .form-radio div{
+        width: 100%;
+    }
+}

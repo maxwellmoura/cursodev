@@ -154,14 +154,13 @@ button{
 .oferta{
     display: flex;
     flex-direction: column;
-    
     width: 100%;
     height: auto;
     margin: 32px auto 0px auto;
 }
 .oferta-titulo{
     font-size: 20px;
-    margin: 0 0 10px 0;
+    margin: 15px 0 10px 0;
 }
 .oferta-descricao{
     font-size: 16px;
