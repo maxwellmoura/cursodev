@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./estilos/estilo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300;1,700&display=swap"
+    rel="stylesheet">
+  <title>Portifolio</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">MM</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🖖,</p>
+          <h1>Sou o Maxwell Moura</h1>
+          <h2>Desenvolvedor Frontend Web</h2>
+
+
+
+          <div class="redes-sociais">
+
+            <a href="https://wa.me/5588999760102" class="outer-shadow"><img src="./imagens/whatsapp.png"
+                alt="whatsapp"></a>
+            <a href="https://www.facebook.com/profile.php?id=100010188225652" class="outer-shadow"><img
+                src="./imagens/facebook.png" alt="facebook"></a>
+            <a href="https://github.com/maxwellmoura" class="outer-shadow"><img src="./imagens/github.png"
+                alt="github"></a>
+            <a href="https://www.instagram.com/max.wellmoura/" class="outer-shadow"><img src="./imagens/instagram.png"
+                alt="instagram"></a>
+
+
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="./imagens/Max.jpg" alt="foto do perfil do Ricardo" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="./imagens/Max.jpg" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Maxwell Christino de Moura e sou um desenvolvedor frontend web em
+              formação!</strong>
+            Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas
+            habilidades.
+          </p>
+
+          <p>
+            Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar
+            feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já
+            aprendi. 😁
+          </p>
+
+          <p>
+            Ah, gosto de jogos, filmes, séries e outras nerdices. 💜
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="./src/cvdev.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>Primeira das habulidades que tive dentro da programação e creio que foi dela que apareceu a minha paixão
+            pelo front-end, claro que ainda como um dev jr. tenho muito a que aprender, porém eu creio que foi dessa
+            linguagem de marcação que tudo começou a fazer meus olhos brilharem</p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>O que dizer do lindo CSS, dele que podemos ver qual maravilhoso podemos começar a deixar o nosso sistema,
+            nossa pagina web, aos poucos estou pegando o jeito de centralizar uma div (rsrsrs)</p>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>Apesar de ser meu terror, aprendi na marra de como subir meus projetos pro GitHub, continuo apanhando feio
+            e lendo minhas anotações, mas um dia chego a fazer tudo como deve ser.</p>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">
+          <a href="https://maxwellmoura.github.io/cursodev/Sindicato/">
+            <img src="./imagens/sindicato.PNG" alt="Nome do projeto" />
+            <h3>Projeto 1</h3>
+            <div class="informacoes-projeto">
+              <p>Site</p>
+              <p>Projeto feito usando HTML e CSS</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://maxwellmoura.github.io/cursodev/LandingPage/">
+            <img src="./imagens/landpage.PNG" alt="LandingPage"/>
+            <h3>Projeto 2</h3>
+            <div class="informacoes-projeto">
+              <p>LandingPage</p>
+              <p>Projeto feito usando HTML e CSS</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://maxwellmoura.github.io/cursodev/rock/">
+            <img src="./imagens/rock.PNG" alt="Seach de Bandas" />
+            <h3>Projeto 3</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto de Seach</p>
+              <p>Projeto feito usando HTML e CSS</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://maxwellmoura.github.io/cursodev/agencia/">
+            <img src="./imagens/agencia.PNG" alt="Nome do projeto" />
+            <h3>Projeto 4</h3>
+            <div class="informacoes-projeto">
+              <p>Lorem ipsum</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://wa.me/5588999760102" class="outer-shadow"><img src="./imagens/whatsapp.png"
+          alt="whatsapp"></a>
+      <a href="https://www.facebook.com/profile.php?id=100010188225652" class="outer-shadow"><img
+          src="./imagens/facebook.png" alt="facebook"></a>
+      <a href="https://github.com/maxwellmoura" class="outer-shadow"><img src="./imagens/github.png"
+          alt="github"></a>
+      <a href="https://www.instagram.com/max.wellmoura/" class="outer-shadow"><img src="./imagens/instagram.png"
+          alt="instagram"></a>
+        <h2>Desenvolvido por Maxwell Moura</h2>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
