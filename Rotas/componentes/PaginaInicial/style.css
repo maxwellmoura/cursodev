@@ -1,0 +1,33 @@
+h1{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.conteudo-opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .conteudo-opcoes a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 10px;
+  }
+  
+  .opcao-front-end{
+    background-color: #7ddbfa;
+    color: blue;
+    border: solid rgb(133, 132, 132);
+    border-radius: 5px;
+    
+  }
+  
+  .opcao-back-end{
+    background-color: #43853d;
+    color: #fff;
+    border: solid black;
+    border-radius: 5px;
+  }
