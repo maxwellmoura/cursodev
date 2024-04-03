@@ -1,0 +1,19 @@
+{
+  "produtos": [
+    {
+      "id": "70ac",
+      "nome": "Moleton",
+      "preco": "100"
+    },
+    {
+      "id": "729c",
+      "nome": "Cueca",
+      "preco": "5"
+    },
+    {
+      "id": "6e49",
+      "nome": "Calça",
+      "preco": "50"
+    }
+  ]
+}
