@@ -1,0 +1,48 @@
+Calculadora de IMC https://maxwellmoura.github.io/cursodev/CalculadoraIMC/
+Uma calculadora simples que permite calcular o Índice de Massa Corporal (IMC) com base no peso e altura inseridos pelo usuário. O resultado exibe a categoria do IMC, como Abaixo do Peso, Peso Normal, Sobrepeso, entre outros.
+
+🚀 Funcionalidades
+Calcula o IMC com base no peso (kg) e altura (m) fornecidos pelo usuário.
+Exibe a classificação do IMC conforme a tabela de categorias de peso.
+Valida os campos de entrada e exibe mensagens de erro para valores inválidos.
+Design responsivo e simples.
+🛠️ Tecnologias Utilizadas
+HTML5: Estrutura da página.
+CSS3: Estilos e layout responsivo.
+JavaScript: Lógica de cálculo e validação do formulário.
+📋 Como Usar
+Abra o arquivo index.html em um navegador.
+Preencha seu peso em quilogramas (kg) e sua altura em metros (m) nos campos do formulário.
+Clique no botão Calcular para obter seu IMC e o nível correspondente.
+📂 Estrutura do Projeto
+bash
+Copiar código
+Calculadora-IMC/
+├── index.html               # Estrutura HTML da página
+├── ./assets/
+│   ├── css/
+│   │   └── estilo.css        # Arquivo de estilos CSS
+│   └── js/
+│       └── main.js           # Arquivo JavaScript com a lógica do IMC
+🎨 Estilo Visual
+A página utiliza cores agradáveis e tipografia limpa para uma melhor experiência do usuário.
+A tabela de IMC está organizada de forma clara, com categorias divididas por faixas de valores de IMC.
+
+✨ Melhorias Futuras
+Adicionar um gráfico interativo para ilustrar o valor do IMC.
+Implementar a opção de salvar o resultado do IMC localmente para futuras comparações.
+Permitir diferentes unidades de medida (ex: libras e pés).
+📦 Como Executar Localmente
+Clone o repositório:
+bash
+Copiar código
+git clone https://github.com/SeuUsuario/calculadora-imc.git
+Navegue até o diretório do projeto:
+bash
+Copiar código
+cd calculadora-imc
+Abra o arquivo index.html no seu navegador preferido.
+📝 Licença
+Este projeto está licenciado sob a MIT License.
+
+Feito com 💻 por Maxwell.
