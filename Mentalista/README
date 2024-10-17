@@ -1,0 +1,47 @@
+Mentalista
+Um jogo simples onde o objetivo é adivinhar um número secreto gerado aleatoriamente. O jogador digita seus chutes e o sistema informa se o número secreto é maior ou menor até que o jogador acerte o número.
+
+🚀 Funcionalidades
+Gera um número secreto aleatório entre 0 e 1000.
+Permite que o usuário chute números e receba dicas sobre o número secreto.
+Exibe alertas informando se o número secreto é maior ou menor que o chute.
+Estilo visual com fundo temático.
+🛠️ Tecnologias Utilizadas
+HTML5: Estrutura da página.
+CSS3: Estilos e layout responsivo.
+JavaScript: Lógica do jogo.
+Random Number Generation: Função para gerar números aleatórios para o jogo.
+📋 Como Jogar
+Abra o arquivo index.html em um navegador.
+O jogo começará automaticamente, e o sistema gerará um número secreto entre 0 e 1000.
+O usuário deve inserir um número no prompt exibido.
+O jogo informará se o número secreto é maior ou menor que o chute.
+Continue até adivinhar o número correto, e o jogo exibirá uma mensagem de sucesso.
+📂 Estrutura do Projeto
+bash
+Copiar código
+Mentalista/
+├── index.html        # Estrutura HTML da página
+├── style.css         # Estilos da página
+├── index.js          # Lógica do jogo
+🎨 Captura de Tela
+
+
+📦 Como Executar Localmente
+Clone o repositório:
+bash
+Copiar código
+git clone https://github.com/SeuUsuario/mentalista.git
+Navegue até o diretório do projeto:
+bash
+Copiar código
+cd mentalista
+Abra o arquivo index.html no seu navegador.
+✨ Melhorias Futuras
+Adicionar um contador de tentativas.
+Implementar um temporizador para medir o tempo de conclusão.
+Melhorar a interface com botões e campos de entrada, eliminando o uso do prompt.
+📝 Licença
+Este projeto está licenciado sob a MIT License.
+
+Feito com ❤️ por Maxwell
